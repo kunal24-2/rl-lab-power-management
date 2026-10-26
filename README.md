@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RL-Based University Computer Lab Power Management
 
 **Course:** Artificial Intelligence — Assignment 2: Real-Life Use Cases of Reinforcement Learning (Mini-Project)  
@@ -160,3 +161,6 @@ pytest -v
 1. **Substantial Energy & Cost Savings with Near-Zero QoS Degradation:** `Q-Learning` achieves the highest cumulative reward (**$373.52$**, a **$+25.0\%$** improvement over `Always-Active` and **$+159.9\%$** over `Always-Idle`), reducing daily electricity consumption by **$30.7\%$** ($40.31\text{ kWh}$ vs. $58.17\text{ kWh}$, saving $17.86\text{ kWh/day}$ or $\sim 6,519\text{ kWh/year}$ per 20-PC lab) and reducing ToU electricity cost by **$21.3\%$** ($\$5.61$ vs. $\$7.13$/day) while maintaining a **$99.6\%$** student service completion rate and **$1.78\text{ s}$** average latency.
 2. **Interpretable Multi-Regime Policy:** The learned Q-table places the standby fleet into `SLEEP` ($25.2\%$ of steps) during empty overnight blocks (`00:00–06:00`), transitions to `IDLE` ($20.8\%$ of steps) during moderate shoulder/evening hours and weekend study periods, and proactively pre-warms machines into `ACTIVE` ($54.0\%$ of steps) ahead of scheduled weekday lab surges.
 3. **Limitations:** The current formulation assumes homogeneous lab workstations and applies a unified power mode to the unoccupied standby pool. Extending the action space to heterogeneous per-row or per-machine cluster control under Deep Q-Networks (DQN) with real-time exam/deadline calendar features is a natural direction for future work.
+=======
+# rl-lab-power-management
+>>>>>>> 9e6dd8aa926c8824933d43f5d20b5d03f48d9d87
