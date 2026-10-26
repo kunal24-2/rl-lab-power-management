@@ -1,10 +1,6 @@
-# Byte-compiled / cache files
-__pycache__/
+﻿__pycache__/
 *.py[cod]
-*$py.class
-.pytest_cache/
-.cache/
-
-# Uploaded assignment prompt PDF
-uploads/
-*.zip
+.venv/
+venv/
+.env
+.vscode/
